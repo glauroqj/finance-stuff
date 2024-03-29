@@ -1,15 +1,17 @@
 {
-  "name": "9",
+  "name": "finance-stuff",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.18.1",
     "nodemon": "^2.0.19",
     "pg-promise": "^10.11.1"
